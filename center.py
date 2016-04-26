@@ -1,6 +1,7 @@
 import movie
 import fresh_tomatoes
 
+#Init a movie instance with Title, Summary, Image_url and youtube url
 DeadPool = movie.MovieInfo(
 	"DeadPool",
 	"2016 American superhero film based on the Marvel Comics character of the same name",
@@ -19,5 +20,6 @@ Batman_Superman = movie.MovieInfo(
 	"https://upload.wikimedia.org/wikipedia/en/2/20/Batman_v_Superman_poster.jpg",
 	"https://www.youtube.com/watch?v=fis-9Zqu2Ro")
 
+#Define an array and pass as argument to function"""
 movies = [DeadPool,Captain_America,Batman_Superman]
 fresh_tomatoes.open_movies_page(movies)

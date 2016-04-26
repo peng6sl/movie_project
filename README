@@ -1,0 +1,5 @@
+This project is to create a movie web page by using python.
+
+- How to run the project?
+  - Directly run center.py in command window, and a web page will open
+    python center.py
